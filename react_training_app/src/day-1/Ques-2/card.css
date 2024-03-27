@@ -1,0 +1,12 @@
+.user{
+    display:flex;
+    flex-direction: row;
+    
+    padding: 10px;
+   
+    text-align: center;
+}
+.user_component{
+    margin: 1rem;
+    padding: 1rem;
+}
