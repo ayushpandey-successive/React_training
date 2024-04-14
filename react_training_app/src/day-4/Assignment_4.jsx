@@ -34,11 +34,11 @@ const Assignment_4 = () => {
       </BrowserRouter>
       </ProSidebarProvider> */}
       {/* <Forms /> */}
-      <ButtonDialog/>
+      {/* <ButtonDialog/>
       <DataTable/>
       <Login/>
       <FormValidation/>
-      
+       */}
       
     
       
