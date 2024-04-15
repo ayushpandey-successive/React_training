@@ -6,6 +6,7 @@ import Assignment_2 from './day-2/Assignment_2';
 import './App.css';
 import Assignment_4 from './day-4/Assignment_4';
 import Assignment_5 from './day-5/Assignment_5';
+import Assignment_6 from './day-6/Assignment_6';
 
 
 
@@ -18,7 +19,8 @@ function App() {
       <Assignment_3/>
       </AuthProvider> */}
       {/* <Assignment_4/> */}
-      <Assignment_5/>
+      {/* <Assignment_5/> */}
+      <Assignment_6/>
       
 
 
