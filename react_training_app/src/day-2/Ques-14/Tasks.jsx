@@ -30,7 +30,7 @@ const Tasks = () => {
     const [data,setData]=useState("")
 
     const handleClick=useCallback((id)=>{
-        
+        console.log(id)
         setTask(task.map((item)=>{
             if(item.id===id && item.completed===false){
                 return{
