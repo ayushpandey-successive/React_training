@@ -4,7 +4,7 @@ Create multiple instances of the UserCard component with different user data.*/
 import React from "react";
 
 const UserCard = (props) => {
-  console.log(props);
+  
   return (
     <div className="user_component">
       <h3>Name: {props.user.name}</h3>
