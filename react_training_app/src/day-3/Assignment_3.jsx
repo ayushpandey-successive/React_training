@@ -15,17 +15,17 @@ const Assignment_3 = () => {
     <div>
       {/* <ParentProvider>
         <Child />
-      </ParentProvider>
-      <ParentProvider2>
+      </ParentProvider> */}
+      {/* <ParentProvider2>
         <ThemeProvider>
           <Child2 />
         </ThemeProvider>
-      </ParentProvider2> */}
+      </ParentProvider2>  */}
 
       {/* <Ques3_Router/> */}
     
-      {/* <Ques4_Router/> */}
-      <Ques6_Routes/>
+       {/* <Ques4_Router/> */}
+       <Ques6_Routes/>
       
       
 

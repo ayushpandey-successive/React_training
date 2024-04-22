@@ -5,7 +5,7 @@ Fetch item details based on the route parameter and display them on the detail p
 Add a "Go Back" button on the detail page to return to the list.*/
 
 /*Make a product list */
-import React from 'react'
+import React, { useState } from 'react'
 import { useParams,useNavigate} from "react-router-dom";
 
 const products = [
@@ -45,18 +45,30 @@ const products = [
 const Products = () => {
     const navigate = useNavigate();
     const { id } = useParams();
-    console.log(id)
+    const [name,setName]=useState("");
+    const [price,setPrice]=useState(0);
+    
+    
     const toProducts=()=>{
         navigate(`./../../products`)
     }
+    const getOnlyArray = (id) => {
+      
+      return products.filter((product) => product.id === id);
+      
+    };
+    const filteredProducts = getOnlyArray(Number(id))
+    
   return (
     
     <div>
         
-      <ol>
-        <li>{products[id-1].name}</li>
-        <li>{products[id-1].price}</li>
-        </ol>
+    
+
+        <h1>{filteredProducts[0].name}</h1>
+        <h2>{filteredProducts[0].price}</h2>
+        
+      
 
         <button onClick={toProducts }>GO Back</button>
 
