@@ -1,6 +1,8 @@
 import React from 'react'
 
 const Task = (props) => {
+  
+ 
   return (
     <div>
         
@@ -11,4 +13,4 @@ const Task = (props) => {
   )
 }
 
-export default Task
+export default React.memo(Task)

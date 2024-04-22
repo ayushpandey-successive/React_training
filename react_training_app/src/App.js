@@ -1,8 +1,8 @@
 
-import Assignment_1 from './day-1/Assignment_1';
-import Assignment_2 from './day-2/Assignment_2';
+// import Assignment_1 from './day-1/Assignment_1';
+//import Assignment_2 from './day-2/Assignment_2';
 import Assignment_3 from './day-3/Assignment_3';
-import AuthProvider from './day-3/Ques-4-5/AuthProvider';
+ import AuthProvider from './day-3/Ques-4/AuthProvider';
 import './App.css';
 
 function App() {
