@@ -31,6 +31,10 @@ const Tasks = () => {
 
     const handleClick=useCallback((id)=>{
         
+
+        if(task[id-1].completed===false)
+        {
+            
         setTask(task.map((item)=>{
             if(item.id===id && item.completed===false){
                 return{
@@ -40,6 +44,7 @@ const Tasks = () => {
             }
             return item
         }))
+    }
     },[task])
     const addTask=()=>{
         

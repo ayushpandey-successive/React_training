@@ -5,41 +5,31 @@ Render the notification message in a <div> element.
 After 5 seconds, clear the message to hide the notification.*/
 
 
-import React,{useEffect, useState} from 'react'
+import React,{ useState} from 'react'
 
 const Notification = () => {
 const [message,setMessage]=useState("");
-const [data,setData]=useState("")
-const [show,setShow]=useState(true)
 
-useEffect(()=>{
-   
-       
-       
+const [show,setShow]=useState(false)
+
+
+const messageShow=()=>{
+  setShow(true);
+  setTimeout(() => {
+    setShow(false);
+  }, 5000);
+
   
-        
-        setTimeout(() => {
-          setShow(false);
-        }, 5000);
-
-        
-       
-        setShow(true);
-        
+ 
   
-        
-        
-    
-    
 
-},[message])
+}
 
   return (
     <div>
         <label htmlFor="message">Type Message</label>
-        <input type="text" name='message' value={data} onChange={(e)=>setData(e.target.value)} />
-        <button onClick={()=>{setMessage(data) 
-            setData("")}}> Send</button>
+        <input type="text" name='message' value={message} onChange={(e)=>setMessage(e.target.value)} />
+        <button onClick={messageShow}> Send</button>
 
       {show && <div>{message}</div>}
     </div>
