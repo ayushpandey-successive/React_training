@@ -9,7 +9,7 @@ const Ques6_Routes = () => {
         <BrowserRouter>
         <Routes>
             <Route path='/' element={<Home/>}/>
-            <Route path="product/:id" element={<Products/>}/>
+            <Route path="products/:id" element={<Products/>}/>
             <Route path="products" element={<AllProducts/>}/>
         </Routes>
         </BrowserRouter>

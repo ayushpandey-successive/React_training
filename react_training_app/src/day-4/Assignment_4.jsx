@@ -15,18 +15,19 @@ import DataTable from './Ques-12/Table'
 import Login from './Ques-13/Login'
 import { FormValidation } from './Ques-14/FormValidation'
 import SearchFilter from './Ques-7/SearchFilter'
+import Form from './Ques-2/Form'
 
 
 const Assignment_4 = () => {
   return (
     <div>
-      {/* <ControlledInput/>
-      <Form/>
-      <InputComponent/>
-      <Validation/>
-      <Dropdown/>
-      <Todo/>
-      <SearchFilter/>
+      {/* <ControlledInput/> */}
+      {/* <Form/> */}
+      {/* <InputComponent/> */}
+      {/* <Validation/> */}
+      {/* <Dropdown/> */}
+      {/* <Todo/> */}
+      {/* <SearchFilter/>
       <Temperature/> */}
       {/* <ProSidebarProvider>
       <BrowserRouter>
@@ -35,10 +36,10 @@ const Assignment_4 = () => {
       </ProSidebarProvider> */}
       {/* <Forms /> */}
       {/* <ButtonDialog/>
-      <DataTable/>
-      <Login/>
-      <FormValidation/>
-       */}
+      <DataTable/> */}
+      {/* <Login/> */}
+      {/* <FormValidation/> */}
+      
       
     
       
